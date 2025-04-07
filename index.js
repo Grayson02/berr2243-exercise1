@@ -14,11 +14,11 @@ async function main() {
         const collection = db.collection('users'); // Replace with your collection name
 
         //Insert the documents
-        await collection.insertOne({ name: 'Gray Gan', age: 23 });
+        await collection.insertOne({ name: 'Grayson Gan', age: 23-24 });
         console.log('User inserted!');
 
         //Query the documents
-        const result = await collection.findOne({name: 'Gray Gan'});
+        const result = await collection.findOne({name: 'Grayson Gan'});
         console.log('Query result:', result);
 
         // Perform database operations here
